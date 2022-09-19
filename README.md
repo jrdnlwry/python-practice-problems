@@ -14,3 +14,9 @@ Create a program that asks the user to enter their name and their age. Print out
 [View the prompt](https://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html)
 
 Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user.
+
+- List Less Than Ten
+
+[View the prompt](https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html)
+
+Take a list, and write a program that prints out all the elements of the list that are less than 10.
