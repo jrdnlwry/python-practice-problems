@@ -20,3 +20,9 @@ Ask the user for a number. Depending on whether the number is even or odd, print
 [View the prompt](https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html)
 
 Take a list, and write a program that prints out all the elements of the list that are less than 10.
+
+- Divisors
+
+[View the prompt](https://www.practicepython.org/exercise/2014/02/26/04-divisors.html)
+
+Create a program that asks the user for a number and then prints out a list of all the divisors of that number. (If you don’t know what a divisor is, it is a number that divides evenly into another number. For example, 13 is a divisor of 26 because 26 / 13 has no remainder.)
