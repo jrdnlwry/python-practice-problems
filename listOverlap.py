@@ -1,6 +1,11 @@
 import random
 
 def listOverLap(list1, list2):
+    """
+    This function accepts two parameters
+    list1: randomized list object containing INTs
+    list2: randomized list object containing INTs
+    """
 
     common_list = []
     # for each element in the list if there's a match add it to the new list
