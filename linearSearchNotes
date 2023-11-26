@@ -1,0 +1,31 @@
+# Linear Search Algorithm
+
+## Introduction
+Linear search, also known as sequential search, is the simplest approach to searching for an element in a dataset. It examines each element in sequence, starting at the beginning of the dataset and continuing until the end.
+
+This method involves going through the entire list to find a match for a single element. If a match is found, the address (or index) of the matching target element is returned. On the other hand, if the element is not found, a NULL value (or an equivalent indicator of absence) is returned.
+
+## Procedure
+The procedures for implementing a linear search are as follows:
+
+### Step 1
+First, read the search element (Target element) in the array.
+
+### Step 2
+Compare the search element with the first element in the array.
+
+### Step 3
+If both are matched, display "Target element is found" and terminate the Linear Search function.
+
+### Step 4
+If both are not matched, compare the search element with the next element in the array.
+
+### Step 5
+Repeat steps 3 and 4 until the search (Target) element is compared with the last element of the array.
+
+### Step 6
+If the last element in the list does not match, the Linear Search Function will be terminated, and the message "Element is not found" will be displayed.
+
+## Conclusion
+Linear search is a straightforward and intuitive method. It is particularly useful for small datasets or when performing a search operation on an unsorted dataset. However, for larger datasets, more efficient search algorithms like binary search are recommended.
+
