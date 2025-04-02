@@ -21,7 +21,7 @@ def solution(number):
     for n in m:
         sum += n
 
-    print(sum)
+    return sum
 
 
 solution(int(input()))

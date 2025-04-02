@@ -21,6 +21,8 @@ def find_it(seq):
         if myDict[i] % 2 != 0:
             oddInt = i
 
+    print(oddInt)
     return oddInt
 
 
+find_it([1,1,1,2,2,3,3,4,4])

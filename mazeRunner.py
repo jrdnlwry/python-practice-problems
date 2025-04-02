@@ -50,6 +50,7 @@ def maze_runner(maze, directions):
     On each iteration need to check the location of where I am at within the maze.
     If I am on a tile or section with a 3 then terminate and return Finish
     """
+
     for i in direction:
         if i == "N":
             sCol = sCol + moveDict[i]['value']
@@ -60,14 +61,18 @@ def maze_runner(maze, directions):
         elif i == "E":
             sRow = sRow + moveDict[i]['value']
             print(sRow, maze[sCol][sRow])
+            if maze[sCol][sRow] == 3:
+                # print("TEST")
+                status = "Finish"
+                break
         elif i == "W":
             sRow = sRow + moveDict[i]['value']
         elif i == "S":
             sCol = sCol + moveDict[i]['value']
 
-    print(maze[sCol][sRow])
+    # print(maze[sCol][sRow])
     
-    print(maze[sCol])
+    # print(maze[sCol])
 
     """
     Attempt to use a Try & Except clause
@@ -83,7 +88,7 @@ def maze_runner(maze, directions):
     except IndexError:
         status = "Dead"
 
-    # print(status)
+    print(status)
     return status
 
 m = [[1,1,1,1,1,1,1],
